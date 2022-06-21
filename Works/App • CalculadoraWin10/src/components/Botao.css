@@ -1,0 +1,15 @@
+.botao{
+    flex-grow: 1;
+    line-height: 3.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.botao:hover{
+    background: #cfcfcf;
+}
+
+.botao:active{
+    background: #b8b8b8;
+}

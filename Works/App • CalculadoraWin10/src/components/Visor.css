@@ -1,0 +1,8 @@
+.visor {
+    font-size: 3rem;
+    color: black;
+    font-weight: 600;
+    padding: 0 10px;
+    background-color: white;
+    text-align: right;
+}
