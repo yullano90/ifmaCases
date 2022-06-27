@@ -77,6 +77,15 @@ VALUES (7, "Vendedor 7");
 SELECT P.id_pedido, C.nome_cliente
 FROM db_ifood.tb_pedidos AS P INNER JOIN db_ifood.tb_clientes AS C
 ON P.id_cliente = C.id_cliente;
+
+-- OU SIMPLISMENTE:
+
+SELECT P.id_pedido, C.nome_cliente
+FROM db_ifood.tb_pedidos AS P
+JOIN db_ifood.tb_clientes AS C
+USING (id_cliente);
+
+
 =========================================================================================
 
 -- Retornar clientes que realizaram pedidos (Modelo II):
