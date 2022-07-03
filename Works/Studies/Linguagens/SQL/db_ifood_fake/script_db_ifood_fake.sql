@@ -113,4 +113,45 @@ AND P.id_vendedor = V.id_vendedor
 
 =========================================================================================
 
+-- A ordem como o programador faz um JOIN interfere diretamente nos dados recuperados.
+-- Abaixo temos cenários onde a posição das tabelas na query fizeram toda diferença:
 
+-- Clientes que ainda não realizaram pedidos:
+SELECT nome_cliente, id_pedido
+FROM db_ifood.tb_clientes AS C LEFT OUTER JOIN db_ifood.tb_pedidos AS P
+ON C.id_cliente = P.id_cliente
+WHERE P.id_pedido IS NOT NULL;
+
+-- OU
+
+SELECT nome_cliente, id_pedido
+FROM db_ifood.tb_clientes AS C RIGHT JOIN db_ifood.tb_pedidos AS P
+ON C.id_cliente = P.id_cliente;
+
+=========================================================================================
+
+-- Clientes com ou sem pedido realizado:
+SELECT nome_cliente, id_pedido
+FROM db_ifood.tb_clientes AS C LEFT OUTER JOIN db_ifood.tb_pedidos AS P
+ON C.id_cliente = P.id_cliente;
+
+-- OU
+
+SELECT nome_cliente, id_pedido
+FROM db_ifood.tb_pedidos AS C RIGHT JOIN db_ifood.tb_clientes AS P
+ON C.id_cliente = P.id_cliente;
+
+
+=========================================================================================
+
+-- Retornar data do pedido, nome do cliente, todos os vendedores (com ou sem pedido) e ordenar pelo nome do cliente.
+SELECT data_pedido, nome_cliente, nome_vendedor
+FROM ((tb_pedidos AS P 
+  JOIN tb_clientes AS C ON P.id_cliente = C.id_cliente)
+  RIGHT JOIN tb_vendedor AS V ON P.id_vendedor = V.id_vendedor)
+  ORDER BY nome_cliente;
+
+
+=========================================================================================
+
+- ERRO DE INTERGIDADE REFERENCIAL
