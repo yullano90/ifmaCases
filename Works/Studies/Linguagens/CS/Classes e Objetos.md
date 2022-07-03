@@ -1,5 +1,4 @@
 > [![sistemas_de_informação](https://img.shields.io/badge/Sistemas_de_Informação-@IFMA-blue.svg)](url) </br>
-> [![iulano_santos](https://img.shields.io/badge/Iulano_Santos-Backend%20Developer-orange.svg)](url) </br>
 
 ---
 
@@ -8,58 +7,64 @@
 
 ```cs
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Aula_House
+namespace WebApp
 {
-    class Features_House
+    public class Program
     {
         public static void Main(string[] args)
         {
-            House house1 = new House();
-            house1.adress = "Avenida Santos Dumont";
+            BankAccount bankAccount = new BankAccount();
+            bankAccount.personalName = "Yullano Santos";
+            bankAccount.Deposit(1000);
+            bankAccount.ShowDetails();
         }
+    }
 
+    public class House
+    {
+        public string Adress;
+        public string Color;
 
-        public class House
-        {
-            private string adress = "Avenida Brasil";
-            private string color = "Blue";
-
-            public House()
-            {
-
-            }
-
-            public void TurnLigthsOn()
-            {
-                Console.WriteLine("Luzes Ligadas");
-            }
-
-            public void TurnLigthsOff()
-            {
-                Console.WriteLine("Luzes Desligadas");
-            }
-        }
-
-        public BankAccount {
-            private string personalName;
-            private string balance;
-
-        public Features_House()
+        public House()
         {
 
         }
-        public void Deposit(decimal amout)
+
+        public void TurnLigthsOn()
+        {
+            Console.WriteLine("Luzes Ligadas");
+        }
+
+        public void TurnLigthsOff()
+        {
+            Console.WriteLine("Luzes Desligadas");
+        }
+    }
+
+    public class BankAccount
+    {
+        public string personalName;
+        public string balance;
+
+        public BankAccount()
+        {
+
+        }
+
+        public void Deposit(decimal amount)
         {
             balance += amount;
         }
 
         public void ShowDetails()
         {
-            Console.WriteLine($"{personalName} possui saldo de {balance}");
+            Console.WriteLine($"{personalName} possui saldo de {balance:C2}");
         }
     }
 }
-
 
 ```
