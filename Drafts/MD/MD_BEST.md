@@ -190,13 +190,13 @@ If you have an app you would like to include on this list, open a PR.
 
 <tr>
 
-<td align="center"><a href="http://donavon.com"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></sub></a><br /><a> <a </a></td>
+<td align="center"><a href="http://donavon.com"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></sub></a><br /><a> Engenharia de Software </a></td>
 
-<td align="center"><a href="https://github.com/revelcw"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></sub></a><br /><a href="#ideas-revelcw" title="Ideas, Planning, & Feedback"></a></td>
+<td align="center"><a href="https://github.com/revelcw"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></sub></a><br /><a href="#ideas-revelcw" title="Ideas, Planning, & Feedback">Engenharia de Software </a></td>
 
-<td align="center"><a href="https://github.com/Andarist"><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Teixeira</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=Andarist" title="Code"></a></td>
+<td align="center"><a href="https://github.com/Andarist"><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Teixeira</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=Andarist" title="Code">Engenharia de Software </a></td>
 
-<td align="center"><a href="https://github.com/wKovacs64"><img src="https://pbs.twimg.com/profile_images/1158999139197304832/fW-zyQzF_400x400.jpg" width="100px;" alt=""/><br /><sub><b>Jailson Soares</b></sub></a><br />
+<td align="center"><a href="https://github.com/wKovacs64"><img src="https://pbs.twimg.com/profile_images/1158999139197304832/fW-zyQzF_400x400.jpg" width="100px;" alt=""/><br /><sub><b>Jailson Soares</b></sub>Engenharia de Software </a><br />
 </a></td>
 </tr>
 </table>
