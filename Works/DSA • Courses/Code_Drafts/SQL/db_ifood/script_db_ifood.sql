@@ -154,4 +154,90 @@ FROM ((tb_pedidos AS P
 
 =========================================================================================
 
-- ERRO DE INTERGIDADE REFERENCIAL
+-- Inserção de registros para testar Integridade Referencial. Será possível perceber que houve a inserção, gerando registros órfãos:
+
+INSERT INTO db_ifood.tb_pedidos (id_pedido, id_cliente, id_vendedor, data_pedido, id_entrega)
+VALUES (1004, 16, 100, NOW(), 23);
+
+
+INSERT INTO db_ifood.tb_pedidos (id_pedido, id_cliente, id_vendedor, data_pedido, id_entrega)
+VALUES (1005, 17, 101, NOW(), 24);
+
+
+=========================================================================================
+
+-- Quando o programador usa o MySQL e deseja fazer um FULL OUTER JOIN não é possível pois o MySQL não o implementou em sua sintaxe.
+-- Nesse caso, é necessário usar o UNION conforme abaixo:
+-- Retornar nome_cliente e id_pedido mesmo que exista um registro órfão:
+
+SELECT nome_cliente, id_pedido
+FROM (db_ifood.tb_clientes AS C) LEFT OUTER JOIN (db_ifood.tb_pedidos P)
+ON (C.id_cliente = P.id_cliente)
+
+UNION
+
+SELECT nome_cliente, id_pedido
+FROM (db_ifood.tb_clientes AS C) RIGHT OUTER JOIN (db_ifood.tb_pedidos P)
+ON (C.id_cliente = P.id_cliente);
+
+-- Cenário anterior com duplicatas:
+
+SELECT nome_cliente, id_pedido
+FROM (db_ifood.tb_clientes AS C) LEFT OUTER JOIN (db_ifood.tb_pedidos P)
+ON (C.id_cliente = P.id_cliente)
+UNION ALL
+SELECT nome_cliente, id_pedido
+FROM (db_ifood.tb_clientes AS C) RIGHT OUTER JOIN (db_ifood.tb_pedidos P)
+ON (C.id_cliente = P.id_cliente);
+
+=========================================================================================
+
+-- Inserir um novo cliente em Campinas Sao Paulo, e em seguida, identificar clientes diferentes nessa localidade.
+-- Chamamos essa estratégia de consulta de SELF JOIN:
+
+INSERT INTO db_ifood.tb_clientes VALUES (6, 'Yullano Santos', 'Rua 07', 'Campinas', 'SP');
+
+SELECT A.nome_cliente, A.cidade_cliente 
+FROM tb_clientes AS A, tb_clientes AS B
+WHERE A.id_cliente <> B.id_cliente AND
+A.cidade_cliente = B.cidade_cliente;
+
+=========================================================================================
+-- CROSS JOIN para retornar todos os dados ou por questões de performance:
+
+USE DB_IFOOD;
+SELECT P.id_pedido, C.nome_cliente
+FROM tb_pedidos AS P, tb_clientes AS C
+ORDER BY nome_cliente;
+
+=========================================================================================
+
+
+https://www.kaggle.com/datasets/arjunprasadsarkhel/2021-olympics-in-tokyo
+
+Os dados contêm um resumo das Olímpiadas de Tokyo 2020 (mas que foi realizada em 2021 devido à pandemia). 
+Você deve criar uma tabela para cada arquivo, carregar os arquivos no banco de dados e então responder às perguntas abaixo:
+1-Quem são os técnicos (coaches) e atletas das equipes de Handball?
+2-Quem são os técnicos (coaches) dos atletas da Austrália que receberam medalhas de Ouro?
+3-Quais países tiveram mulheres conquistando medalhas de Ouro?
+4-Quais atletas da Noruega receberam medalhas de Ouro ou Prata?
+5-Quais atletas Brasileiros não receberam medalhas?
+
+Obs:  Segundo  o  autor  dos  datasets,  os  dados  foram  extraídos  do  site  oficial  das Olimpíadas  de  Tokyo,  
+mas  não  validamos  a  acurácia  ou  veracidade  dos  dados.  
+
+Como  nosso propósito aqui é estudar Linguagem SQL e não as Olimpíadas, os dados atendem nosso propósito. 
+Mas as conclusões não devem ser consideradas oficiais sem validação dos dados (o  que não é necessário para este exercício). 
+Vamos estudar SQL.Atenção: Você deve fazer cadastro no Kaggle para poder realizar o download dos arquivos.
+
+
+
+
+
+
+
+
+
+
+
+
