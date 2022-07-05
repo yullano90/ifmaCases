@@ -192,11 +192,11 @@ If you have an app you would like to include on this list, open a PR.
 
 <td align="center"><a href="http://donavon.com"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></sub></a><br /><a> <a </a></td>
 
-<td align="center"><a href="https://github.com/revelcw"><img src="https://avatars2.githubusercontent.com/u/29359616?v=4" width="100px;" alt=""/><br /><sub><b>Revel Carlberg West</b></sub></a><br /><a href="#ideas-revelcw" title="Ideas, Planning, & Feedback">🤔</a></td>
+<td align="center"><a href="https://github.com/revelcw"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></sub></a><br /><a href="#ideas-revelcw" title="Ideas, Planning, & Feedback">🤔</a></td>
 
-<td align="center"><a href="https://github.com/Andarist"><img src="https://avatars2.githubusercontent.com/u/9800850?v=4" width="100px;" alt=""/><br /><sub><b>Mateusz Burzyński</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=Andarist" title="Code">💻</a></td>
+<td align="center"><a href="https://github.com/Andarist"><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Teixeira</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=Andarist" title="Code">💻</a></td>
 
-<td align="center"><a href="https://github.com/wKovacs64"><img src="https://avatars1.githubusercontent.com/u/1288694?v=4" width="100px;" alt=""/><br /><sub><b>Justin Hall</b></sub></a><br />
+<td align="center"><a href="https://github.com/wKovacs64"><img src="https://pbs.twimg.com/profile_images/1158999139197304832/fW-zyQzF_400x400.jpg" width="100px;" alt=""/><br /><sub><b>Jailson Soares</b></sub></a><br />
 </a></td>
 </tr>
 </table>
