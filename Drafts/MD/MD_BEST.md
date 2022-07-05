@@ -196,22 +196,9 @@ If you have an app you would like to include on this list, open a PR.
 
 <td align="center"><a href="https://github.com/Andarist"><img src="https://avatars2.githubusercontent.com/u/9800850?v=4" width="100px;" alt=""/><br /><sub><b>Mateusz Burzyński</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=Andarist" title="Code">💻</a></td>
 
-<td align="center"><a href="https://github.com/wKovacs64"><img src="https://avatars1.githubusercontent.com/u/1288694?v=4" width="100px;" alt=""/><br /><sub><b>Justin Hall</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=wKovacs64" title="Code">💻</a></td>
-
-<td align="center"><a href="https://github.com/fxbabys"><img src="https://avatars1.githubusercontent.com/u/24556921?v=4" width="100px;" alt=""/><br /><sub><b>Jeremy</b></sub></a><br /><a href="#userTesting-fxbabys" title="User Testing">📓</a> <a href="https://github.com/donavon/use-dark-mode/issues?q=author%3Afxbabys" title="Bug reports">🐛</a></td>
-
-<td align="center"><a href="http://janosh.io"><img src="https://avatars0.githubusercontent.com/u/30958850?v=4" width="100px;" alt=""/><br /><sub><b>Janosh Riebesell</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=janosh" title="Documentation">📖</a></td>
-
-<td align="center"><a href="http://hipstersmoothie.com"><img src="https://avatars3.githubusercontent.com/u/1192452?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Lisowski</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=hipstersmoothie" title="Documentation">📖</a></td>
-
+<td align="center"><a href="https://github.com/wKovacs64"><img src="https://avatars1.githubusercontent.com/u/1288694?v=4" width="100px;" alt=""/><br /><sub><b>Justin Hall</b></sub></a><br />
+</a></td>
 </tr>
-
-<tr>
-
-<td align="center"><a href="https://jorgegonzalez.io"><img src="https://avatars2.githubusercontent.com/u/12901172?v=4" width="100px;" alt=""/><br /><sub><b>Jorge Gonzalez</b></sub></a><br /><a href="https://github.com/donavon/use-dark-mode/commits?author=jorgegonzalez" title="Code">💻</a></td>
-
-</tr>
-
 </table>
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
