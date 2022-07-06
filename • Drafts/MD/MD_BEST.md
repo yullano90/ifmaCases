@@ -192,7 +192,7 @@ If you have an app you would like to include on this list, open a PR.
 
 <td align="center"><a> Programador <br/> </a></td>
 
-<td align="center"><a href="https://github.com/yullano90/"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></td>
+<td align="center"><a href="https://github.com/yullano90/"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><a href="https://github.com/yullano90"> [![iulano_santos](https://img.shields.io/badge/Iulano_Santos-Backend-blue.svg)](https://github.com/yullano90) </a></td>
 
 <td align="center"><a href="https://github.com/odivalq"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></td>
 
@@ -220,8 +220,10 @@ If you have an app you would like to include on this list, open a PR.
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 
-
-
+<a href="https://www.figma.com/proto/8nohgZFsrHimifrt5FvQzy/Projeto-EMSERF?node-id=5%3A2&scaling=contain&page-id=0%3A1&starting-point-node-id=5%3A2"> Figma </a>
+<a href="https://github.com/yullano90/emserf_service_map_manager/tree/master/_Front-end"> React JS </a>
+<a href="https://github.com/yullano90/emserf_service_map_manager/tree/master/_Back-end"> Node JS </a>
+<a href="https://github.com/yullano90/emserf_service_map_manager/tree/master/_Database"> MySQL </a>
 
 
 
