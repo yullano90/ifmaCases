@@ -192,7 +192,7 @@ If you have an app you would like to include on this list, open a PR.
 
 <td align="center"><a> Programador <br/> </a></td>
 
-<td align="center"><a href="https://github.com/yullano90/"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><a href="https://github.com/yullano90"> [![iulano_santos](https://img.shields.io/badge/Iulano_Santos-Backend-blue.svg)](https://github.com/yullano90) </a></td>
+<td align="center"><a href="https://github.com/yullano90/"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br/> <a href="https://github.com/yullano90"> [![iulano_santos](https://img.shields.io/badge/Iulano_Santos-Backend-blue.svg)](https://github.com/yullano90) </a> </td>
 
 <td align="center"><a href="https://github.com/odivalq"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></td>
 
