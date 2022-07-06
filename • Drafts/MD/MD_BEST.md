@@ -190,13 +190,13 @@ If you have an app you would like to include on this list, open a PR.
 
 <tr>
 
-<td align="center"><a href="http://donavon.com"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></sub></a><br /><a> Engenharia de Software </a></td>
+<td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></sub></a><br /><a> Interação Homem-Máquina + Engenharia de Software  </a></td>
 
-<td align="center"><a href="https://github.com/revelcw"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></sub></a><br /><a> Engenharia de Software </a></td>
+<td align="center"><a href="https://github.com/odivalq"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></sub></a><br /><a> Interação Homem-Máquina + Engenharia de Software </a></td>
 
-<td align="center"><a href="https://github.com/Andarist"><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Rodrigo </b></sub></a><br /><a> Engenharia de Software </a></td>
+<td align="center"><a href=""><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Rodrigo </b></sub></a><br /><a> Interação Homem-Máquina </a></td>
 
-<td align="center"><a href="https://github.com/wKovacs64"><img src="https://pbs.twimg.com/profile_images/1158999139197304832/fW-zyQzF_400x400.jpg" width="100px;" alt=""/><br /><sub><b>Jailson Soares</b></sub></a><br /><a> Engenharia de Software </a></td>
+<td align="center"><a href=""><img src="https://pbs.twimg.com/profile_images/1158999139197304832/fW-zyQzF_400x400.jpg" width="100px;" alt=""/><br /><sub><b>Jailson Soares</b></sub></a><br /><a> Engenharia de Software </a></td>
 
 </tr>
 </table>
