@@ -206,13 +206,13 @@ If you have an app you would like to include on this list, open a PR.
 
 <td align="center"><a> Disciplinas <br/> </a></td>
 
-<td align="center"><a> Interação Homem-Máquina <br/>  <br/> Engenharia de Software  </a></td>
+<td align="center"><a> • Interação Homem-Máquina <br/> • Engenharia de Software  </a></td>
 
-<td align="center"><a> Interação Homem-Máquina <br/>Engenharia de Software </a></td>
+<td align="center"><a> • Interação Homem-Máquina <br/> • Engenharia de Software </a></td>
 
-<td align="center"><a> Interação Homem-Máquina </a></td>
+<td align="center"><a> • Interação Homem-Máquina </a></td>
 
-<td align="center"><a> Engenharia de Software </a></td>
+<td align="center"><a> • Engenharia de Software </a></td>
 
 </tr>
 </table>
