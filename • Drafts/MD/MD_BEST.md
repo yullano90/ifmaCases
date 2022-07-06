@@ -192,11 +192,11 @@ If you have an app you would like to include on this list, open a PR.
 
 <td align="center"><a> Programador <br/> </a></td>
 
-<td align="center"><a href="https://github.com/yullano90/"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></sub></a><br /><a> Interação Homem-Máquina <br/>  <br/> Engenharia de Software  </a></td>
+<td align="center"><a href="https://github.com/yullano90/"><img src="https://avatars.githubusercontent.com/u/40738499?v=4" width="100px;" alt=""/><br /><sub><b>Yullano Santos</b></td>
 
-<td align="center"><a href="https://github.com/odivalq"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></sub></a><br /><a> Interação Homem-Máquina <br/>Engenharia de Software </a></td>
+<td align="center"><a href="https://github.com/odivalq"><img src="https://avatars.githubusercontent.com/u/11811499?v=4" width="100px;" alt=""/><br /><sub><b>Odival Quaresma</b></td>
 
-<td align="center"><a href="https://github.com/DiegoRodrig0"><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Rodrigo </b></sub></a><br /><a> Interação Homem-Máquina </a></td>
+<td align="center"><a href="https://github.com/DiegoRodrig0"><img src="https://avatars.githubusercontent.com/u/84028669?v=4" width="100px;" alt=""/><br /><sub><b>Diego Rodrigo </b></td>
 
 <td align="center"><a href="https://github.com/scjailson"><img src="https://avatars.githubusercontent.com/u/54485111?v=4" width="100px;" alt=""/><br /><sub><b>Jailson Soares</b></sub></a><br /><a> Engenharia de Software </a></td>
 
