@@ -2,8 +2,14 @@
 
 --- 
 
-Richard Stallman - FSF
+Richard Stallman - FSF<br/>
 Bruce Perens e Eric Raymond - OSI
+
+- A liberdade de executar o programa como você desejar, para qualquer propósito (liberdade 0).
+- A liberdade de estudar como o programa funciona, e adaptá-lo às suas necessidades (liberdade 1). Para tanto, acesso ao código-fonte é um pré-requisito.
+- A liberdade de redistribuir cópias de modo que você possa ajudar outros (liberdade 2).
+- A liberdade de distribuir cópias de suas versões modificadas a outros (liberdade 3). Desta forma, você pode dar a toda comunidade a chance de beneficiar de suas mudanças. Para tanto, acesso ao código-fonte é um pré-requisito.
+
 
 • Debian Free Software Guidelines (DFSG), Definição Debian de Software Livre por Bruce Perens;
 
