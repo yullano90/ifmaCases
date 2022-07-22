@@ -1,28 +1,26 @@
-> [![sistemas_de_informação](https://img.shields.io/badge/Sistemas_de_Informação-@IFMA-blue.svg)](url) </br>
-
----
-https://www.jdoodle.com/compile-c-sharp-online/
-
-### • Classes e Objetos C#.
-
-
-```cs
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace ConsoleApp
 {
     public class Program
     {
+        this.private DeleteAllComments();
         public static void Main(string[] args)
         {
+            House house = new House();
+            house.TurnLigthsOff();
+
             BankAccount bankAccount = new BankAccount();
             bankAccount.personalName = "Yullano Santos";
             bankAccount.Deposit(1000);
             bankAccount.ShowDetails();
+
+            ForeachSample foreachSample = new ForeachSample();
+            foreachSample.ReadList();
         }
     }
 
@@ -67,6 +65,18 @@ namespace ConsoleApp
             Console.WriteLine($"{personalName} possui saldo de {balance:C2}");
         }
     }
+
+    public class ForeachSample //Teste para remover commits no head
+    {
+        public void ReadList()
+        {
+            string[] nomes = { "Yullano", "Gabriel", "Davi", "Daniel" };
+
+            foreach (string nome in nomes)
+            {
+                Console.WriteLine(nome);
+            }
+        }
+    }
 }
 
-```
