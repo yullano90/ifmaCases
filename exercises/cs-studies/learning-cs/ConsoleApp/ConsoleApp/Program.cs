@@ -14,15 +14,18 @@ namespace ConsoleApp
             cadastro.DataUSer();
             Console.Read();
 
-            BankAccount bankAccount = new BankAccount();
+            BankAccount bankAccount = new();
             bankAccount.personalName = "Yullano Santos";
             bankAccount.Deposit(1000);
             bankAccount.ShowDetails();
             Console.Read();
 
-            ForeachSample foreachSample = new ForeachSample();
-            foreachSample.ReadList();
+            Repetition repetition = new();
+            repetition.ReadList();
             Console.Read();
+
+            SampleTryCath sampTryCath = new();
+            sampTryCath.Print();
         }
     }
 
@@ -98,20 +101,49 @@ namespace ConsoleApp
         }
     }
 
-    public class ForeachSample
+    public class Repetition
     {
+        string[] nomes = { "Gabriel", "Davi", "Daniel", "Isaque" };
         public void ReadList()
         {
-            string[] nomes = {"Gabriel", "Davi", "Daniel", "Isaque" };
-
-            Console.Write("\n========= FILHOS =========\n ");
+            Console.Write("\n========= FILHOS =========\n");
             foreach (string nome in nomes)
             {
                 Console.WriteLine(nome);
             }
+
+            Repetition repetition = new();
+            repetition.Verification();
+        }
+
+        public void Verification()
+        {
+            Console.Write("Informe entre 1 e 4 para saber a ordem de nascimento: ");
+            int number = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < nomes.Length; i++)
+            {
+                if (i == (number - 1))
+                {
+                    Console.Write(string.Format($"O {nomes[i]} é o {number}ª filho de Yullano"));
+                }
+            }
         }
     }
 
+    public class SampleTryCath
+    {
+        string nickname = null;
+        public void Print()
+        {
+            try
+            {
+                Console.WriteLine(nickname.Length);
+            }
+            catch(NullReferenceException ex)
+            {
+                Console.WriteLine("String Nula: " + ex.StackTrace);
+            }
+        }
+    }
 }
-
-

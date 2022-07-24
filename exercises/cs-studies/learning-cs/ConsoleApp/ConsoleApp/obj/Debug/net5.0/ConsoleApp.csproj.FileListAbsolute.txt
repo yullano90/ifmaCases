@@ -7,10 +7,10 @@ C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\Conso
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.dev.json
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.dll
-C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ref\ConsoleApp.dll
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.pdb
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
 C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\81030093\Desktop\IFMA\ifma_cases\exercises\cs-studies\learning-cs\ConsoleApp\ConsoleApp\obj\Debug\net5.0\refint\ConsoleApp.dll
